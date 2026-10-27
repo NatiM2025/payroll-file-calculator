@@ -19,8 +19,7 @@ public class PayrollCalculator {
                 double payRate = Double.parseDouble(tokens[3]);
 
                 employee employee =new employee(id,payRate,hourWorked,name);
-                System.out.printf("");
-
+                System.out.println("$ " + employee.getGrosspay(hourWorked,payRate));
 
 
             }
